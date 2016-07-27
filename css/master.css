@@ -1,15 +1,37 @@
+body {
+	background-color: #B15F5F;
+}
+
 .container {
-    width: 400px;
+    width: 600px;
     margin: 0 auto;
+    background-color: #B15F5F;
 }
 h1 {
-    color: red;
+    color: white;
     text-transform: uppercase;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+h2 {
+	color : white;
+}
+
+
+span {
+	color : #217D5F;
 }
 #controls {
     text-align: center;
 }
 .time {
     font-weight: bold;
-    font-size: 3em;
+    font-size: 80px;
+    color : white;
+}
+
+li, input {
+	border : 5px solid #3A8989;
 }
